@@ -1,0 +1,11 @@
+com\member\repo\MemberRepository.class
+com\member\config\MemberSecurityConfig.class
+com\member\exception\RegisterMemberException.class
+com\member\service\MemberServiceImpl.class
+com\member\dao\MemberDaoImpl.class
+com\member\service\MemberService.class
+com\member\controller\MemberController.class
+com\member\entity\Member.class
+com\member\dao\MemberDao.class
+com\member\dto\MemberDto.class
+com\member\MemberRegistrationPortalApplication.class

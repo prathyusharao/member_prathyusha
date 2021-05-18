@@ -1,0 +1,33 @@
+# Created at 2021-05-11T19:03:39.115
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2021-05-11T19:03:43.418
+Unexpected IOException with stream: 2021-05-11 19:03:43.412  INFO 9092 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+
+
+# Created at 2021-05-11T19:03:48.955
+Unexpected IOException with stream: 2021-05-11 19:03:48.953  INFO 9092 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5012 ms. Found 1 MongoDB repository interfaces.
+
+
+# Created at 2021-05-11T19:04:04.560
+Unexpected IOException with stream: 2021-05-11 19:04:04.550  INFO 9092 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+
+
+# Created at 2021-05-11T19:04:06.085
+Unexpected IOException with stream: 2021-05-11 19:04:06.084  INFO 9092 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:40}] to localhost:27017
+
+
+# Created at 2021-05-11T19:04:06.088
+Unexpected IOException with stream: 2021-05-11 19:04:06.087  INFO 9092 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=284259300}
+
+
+# Created at 2021-05-11T19:04:06.159
+Unexpected IOException with stream: 2021-05-11 19:04:06.158  INFO 9092 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:41}] to localhost:27017
+
+
